@@ -1,0 +1,32 @@
+input,
+textarea {
+    border: none;
+    outline: none;
+    font-family: 'Open Sans', sans-serif;
+    padding: 0.8rem;
+    border-radius: 0.5rem;
+    background-color: #222222;
+    color: var(--branco)
+}
+
+form {
+    padding: 0 10%;
+}
+
+.campos {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-around;
+}
+
+.input {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 0rem;
+    width: 40%;
+}
+
+.input label {
+    margin-bottom: 5px;
+}

@@ -1,0 +1,33 @@
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes-sociais {
+    display: flex;
+    gap: 10px;
+}
+
+.redes-sociais a {
+    cursor: pointer;
+    transition: 0.1s;
+    list-style: none;
+    color:var(--branco);
+    text-decoration: none;
+}
+
+.redes-sociais a img{
+    width: 32px;
+}
+
+.redes-sociais a:hover {
+    transform: scale(1.05);
+}
+
+@media only screen and (max-width: 700px) {
+    footer {
+        flex-direction: column;
+        margin-bottom: 10px;
+    }
+}
